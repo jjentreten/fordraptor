@@ -19,7 +19,8 @@ const PENDING_FILE          = path.join(__dirname, 'data', 'pending-utmify-order
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '..')));
+app.use(express.static(__dirname));
+app.get('/', (_req, res) => { res.sendFile(path.join(__dirname, 'index.html')); });
 
 // ─── Utmify helpers ───────────────────────────────────────────────────────────
 function ensureDataDir() {
