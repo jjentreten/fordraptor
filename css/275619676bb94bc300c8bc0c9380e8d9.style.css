@@ -1,0 +1,33 @@
+:root {
+    --incrivel-bg: oklch(0.1732 0.0109 268.05);
+    --incrivel-border: oklch(0.2573 0.0149 264.45);
+    --incrivel-bgColor: oklch(0.9 0 0);
+    --incrivel-bgLink: oklch(0.84 0 0);
+    --incrivel-bgLinkHover: oklch(0.49 0.21 313.04);
+    --incrivel-rgba: 0, 0, 0;
+    --incrivel-rgbaInvert: 255, 255, 255;
+    --incrivel-formBg: oklch(0.2573 0.0149 264.45);
+    --incrivel-formBgHover: oklch(0.1964 0.0125 270.71);
+    --incrivel-formBgHoverColor: oklch(0.9825 0.0038 283.96);
+    --incrivel-formBorder: oklch(0.2573 0.0149 264.45);
+    --incrivel-formColor: oklch(0.9825 0.0038 283.96);
+    --incrivel-cardBg: oklch(0.33 0.1 314.33);
+    --incrivel-cardColor: oklch(0.9825 0.0038 283.96);
+    --incrivel-cardLink: oklch(0.9825 0.0038 283.96);
+    --incrivel-modalBg: oklch(0.1732 0.0109 268.05);
+    --incrivel-modalBorder: oklch(0.2573 0.0149 264.45);
+    --incrivel-modalColor: oklch(0.9825 0.0038 283.96);
+    --incrivel-primaria: oklch(0.41 0.18 313.03);
+    --incrivel-primariaColor: oklch(0.9 0 0);
+    --incrivel-primariaLink: oklch(0.9825 0.0038 283.96);
+    --incrivel-primariaLinkHover: oklch(0.6607 0.0113 252.11);
+    --incrivel-primariaDarken: oklch(0.23 0.04 318.23);
+    --incrivel-primariaDarkenColor: oklch(0.89 0 0);
+    --incrivel-primariaDarkenLink: oklch(0.9825 0.0038 283.96);
+    --incrivel-primariaDarkenLinkHover: oklch(0.49 0.21 313.04);
+}
+
+.topCompradores .--item {
+    background-color: var(--incrivel-cardBg) !important;}
+
+.msg-parabens-premiado, .msg-parabens-equipe, .qtd-figurinhas { display:none !important;}
